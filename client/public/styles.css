@@ -1,0 +1,247 @@
+body{
+  background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/blizzard.png");
+
+}
+.top{
+    padding: 20px 30px 0 30px;
+    font-size: 1.5rem;
+
+}
+.navbar-brand{
+  font-size: 1.5rem;
+}
+nav li{
+  padding: 10px 15px;
+}
+nav{
+  z-index: 1;
+}
+.gurgaon-image{
+  width: 100%;
+  height: 75%;
+  border-radius: 10px;
+
+}
+.carousel-inner{
+margin: auto;
+}
+.quote-div{
+  background-color: #FCDEC0;
+  text-align: center;
+    padding: 5% 10%;
+    color: #7D5A50;
+}
+.quote-div h1{
+font-family: 'Cinzel', serif;
+font-size: 3.5rem;
+
+
+}
+.estateContainer{
+  padding: 8% 10%;
+   background-attachment: fixed;
+
+
+}
+
+.banner{
+    width: 100%;
+    height:  88vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+
+}
+.estateContainer h1{
+  font-family: 'Encode Sans SC', sans-serif;
+  font-size: 2.7rem;
+
+}
+.estateContainer p{
+  color: grey;
+  font-family: 'Gowun Batang', serif;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.banner video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+
+
+    -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: blur(3px);
+}
+.banner .content{
+    position: relative;
+    z-index: 1;
+    color: blanchedalmond;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+
+}
+.banner-div{
+  width: 400px;
+  height: 150px;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 10px;
+  padding: 20px;
+
+}
+.propertyCard{
+margin-top: 30px;
+
+}
+.card{
+  box-shadow: 0px 0px 2px 2px grey;
+
+}
+.card-title{
+font-family: 'Source Sans Pro', sans-serif;
+}
+.cardContainer{
+  padding: 0 10% ;
+}
+p.card-text{
+  margin: 0;
+  color: grey;
+}
+footer {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  height: 3.5rem;
+  background-color: #000000;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+
+
+/* padding: 50px 20px 200px 20px; */
+}
+
+.propertyLink{
+  text-decoration: none;
+  display: inline;
+}
+.propertyLink:hover{
+  text-decoration: none;
+}
+
+
+footer p {
+  color: #ccc;
+}
+
+.skill-row{
+  width: 75%;
+  margin: 70px  auto;
+  text-align:left;
+  line-height: 1.5;
+}
+.skill-row p{
+  color: grey;
+}
+
+.giph{
+  height: 250px;
+  float: left;
+  margin: 30px;
+}
+.giph1{
+  height: 250px;
+  float: right;
+  margin: 30px;
+}
+.giph2{
+  height: 200px;
+  float: left;
+  margin: 30px;
+}
+hr{
+  border:none;
+ border-top:15px dotted #BBBBBB;
+
+ height:1px;
+ width:30%;
+}
+/* hr {
+  border: 1px solid transparent;
+  height: 1em;
+  width: 15%;
+  position: relative;
+}
+
+hr:before, hr:after {
+  content: ' V ';
+  color: black;
+  font-family: Montez;
+  position: absolute;
+}
+
+hr:before {
+  left: 0;
+  text-shadow: -1px 0px black;
+  -webkit-transform: scaleX(15) scaleY(2) rotate(-90deg);
+   -moz-transform: scaleX(15) scaleY(2) rotate(-90deg);
+  -ms-transform: scaleX(15) scaleY(2) rotate(-90deg);
+  -o-transform: scaleX(15) scaleY(2) rotate(-90deg);
+  transform: scaleX(15) scaleY(2) rotate(-90deg);
+}
+hr:after {
+  right: 0;
+    text-shadow: 1px 0px black;
+  -webkit-transform: scaleX(15) scaleY(2) rotate(90deg);
+   -moz-transform: scaleX(15) scaleY(2) rotate(90deg);
+  -ms-transform: scaleX(15) scaleY(2) rotate(90deg);
+  -o-transform: scaleX(15) scaleY(2) rotate(90deg);
+  transform: scaleX(15) scaleY(2) rotate(90deg);
+} */
+.my-image{
+  width: 100px;
+  border-radius: 40px;
+
+}
+.contact{
+  text-align: left;
+  padding: 0 20px;
+  color: white;
+}
+.imageContainer{
+ padding: 0;
+ border-style: solid;
+ border-color: white;
+ overflow: hidden;
+
+}
+.gridImages{
+  width: 100%;
+  height: 100%;
+}
+.container{
+  overflow: hidden;
+}
+.features-class{
+  text-align:center;
+  padding: 7%;
+
+ background-color: #FCDEC0;
+ color: #7D5A50;
+ width: 100%;
+
+}
+.icon{
+  padding: 10px;
+}
