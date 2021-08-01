@@ -50,8 +50,8 @@ font-size: 3.5rem;
     height:  88vh;
     overflow: hidden;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     background-repeat: no-repeat;
    background-attachment: fixed;
 
@@ -90,6 +90,7 @@ font-size: 3.5rem;
     margin: 0 auto;
     max-width: 1000px;
     text-align: center;
+    top: 130px;
 
 }
 .banner-div{
@@ -99,10 +100,13 @@ font-size: 3.5rem;
   opacity: 0.8;
   border-radius: 10px;
   padding: 20px;
+  margin: 80px auto;
 
 }
 .propertyCard{
-margin-top: 30px;
+margin: 30px auto;
+width: 70%;
+
 
 }
 .card{
@@ -232,6 +236,7 @@ hr:after {
 }
 .container{
   overflow: hidden;
+  padding: 50px;
 }
 .features-class{
   text-align:center;
@@ -244,4 +249,142 @@ hr:after {
 }
 .icon{
   padding: 10px;
+}
+
+
+.content h1 {
+	display: block;
+	width: fit-content;
+	font-size: 4rem;
+	position: relative;
+	color: transparent;
+	animation: text_reveal 0.5s ease forwards;
+	animation-delay: 1s;
+  font-family: 'Cinzel', serif;
+}
+.content h1:nth-child(1) {
+	animation-delay: 1s;
+}
+
+.content h1 span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0;
+	background-color: black;
+	animation: text_reveal_box 1s ease;
+	animation-delay: 0.5s;
+}
+.content h1:nth-child(1) span {
+	animation-delay: 0.5s;
+}
+
+@keyframes text_reveal_box {
+	50% {
+		width: 100%;
+		left: 0;
+	}
+	100% {
+		width: 0;
+		left: 100%;
+	}
+}
+@keyframes text_reveal {
+	100% {
+		color: black;
+	}
+}
+/* @keyframes text_reveal_name {
+	100% {
+		color: blue;
+		font-weight: 500;
+	}
+} */
+
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+
+}
+.contain {
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+.left1{
+  width: 50%;
+  height: 500px;
+  background: url(https://img77.uenicdn.com/image/upload/v1542048788/category/shutterstock_672083275.jpg)
+    no-repeat center / cover;
+  border-radius: 8px;
+}
+.left2{
+  width: 50%;
+  height: 500px;
+  background: url(https://i.pinimg.com/originals/78/77/c1/7877c117eaef64dba0e9895c818eb103.png)
+    no-repeat center / cover;
+  border-radius: 8px;
+}
+/* .left .property{
+    background: url(https://img77.uenicdn.com/image/upload/v1542048788/category/shutterstock_672083275.jpg);
+
+}
+.left .interior{
+    background: url(https://i.pinimg.com/originals/78/77/c1/7877c117eaef64dba0e9895c818eb103.png)
+} */
+.right {
+  width: 50%;
+  height: 600px;
+  background-color: #303137;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+  color: white;
+  margin-left: -150px;
+}
+.right h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+.right p {
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+@media only screen and (max-width: 968px) {
+section{
+  flex-direction: column;
+}
+  .contain {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 20px;
+    padding: 40px;
+
+  }
+  .left1 {
+    width: 100%;
+    height: 400px;
+  }
+  .left2 {
+    width: 100%;
+    height: 400px;
+  }
+  .right {
+    width: 90%;
+    margin: 0;
+    margin-top: -100px;
+  }
 }

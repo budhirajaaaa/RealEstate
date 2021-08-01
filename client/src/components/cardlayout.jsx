@@ -6,7 +6,7 @@ function CardLayout(){
   const [places, setPlaces] = useState([]);
 
   useEffect(() => {
-         axios.get("/data")
+         axios.get("http://localhost:5000/data")
          .then (res => {
              setPlaces(res.data);
          })

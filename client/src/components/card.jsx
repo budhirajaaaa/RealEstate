@@ -2,7 +2,7 @@ import React from "react";
 import About from './about';
 function Card(props){
 
-  return  <div className="col-sm-4 col-md-4 propertyCard" >
+  return  <div className="col-lg-4 propertyCard" >
   <div className="card" styles="width: 10rem;">
   <img className="card-img-top" src={props.link} alt="Card image cap" />
   <div className="card-body" index={props.id}>
