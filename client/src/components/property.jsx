@@ -9,7 +9,7 @@ const [t,sett]= useState(0)
 const [pplaces, setPPlaces] = useState([]);
 
 useEffect(async () => {
-       await axios.get("http://localhost:5000/data")
+       await axios.get("/data")
        .then (res => {
            setPPlaces(res.data);
            sett(1);
