@@ -4,7 +4,7 @@ background-image: url("https://www.transparenttextures.com/patterns/blizzard.png
 
 }
 .top{
-    padding: 20px 30px 0 30px;
+    /* padding: 20px 30px 0 30px; */
     font-size: 1.5rem;
 
 }
@@ -22,6 +22,10 @@ nav{
   height: 75%;
   border-radius: 10px;
 
+}
+.photo{
+  margin: 50px;
+  height: 100px;
 }
 .carousel-inner{
 margin: auto;
@@ -105,7 +109,7 @@ font-size: 3.5rem;
 }
 .propertyCard{
 margin: 30px auto;
-width: 70%;
+
 
 
 }
@@ -177,9 +181,10 @@ footer p {
 hr{
   border:none;
  border-top:15px dotted #BBBBBB;
-
+margin: 0 auto;
  height:1px;
  width:30%;
+ background-color: transparent;
 }
 /* hr {
   border: 1px solid transparent;
@@ -375,16 +380,51 @@ section{
 
   }
   .left1 {
-    width: 100%;
+    width: 80%;
     height: 400px;
   }
   .left2 {
-    width: 100%;
+    width: 80%;
     height: 400px;
   }
   .right {
-    width: 90%;
+    width: 70%;
     margin: 0;
     margin-top: -100px;
   }
+}
+.property-carousel{
+  /* height: 0vh; */
+  padding: 0 0px;
+
+}
+
+.pimage{
+
+  height: 80vh;
+
+
+}
+.property-detail{
+  padding: 30px 10%;
+}
+.property-detail p{
+  color: grey;
+
+}
+.property-detail .a{
+  padding: 30px 0px;
+}
+.property-detail li{
+  color: grey;
+  padding: 5px;
+}
+.property-detail h1{
+  color: #FFB740;
+  padding: 20px 0;
+  font-family: 'Cinzel', serif;
+
+}
+.layout{
+  width: 100%;
 }

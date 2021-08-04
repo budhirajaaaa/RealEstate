@@ -38,7 +38,7 @@ function CardLayout(){
   </div>
   </div>
   <br />
-    <br />
+  <br />
   </div>
 }
 export default CardLayout;
