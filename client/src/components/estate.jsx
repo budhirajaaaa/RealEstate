@@ -11,12 +11,12 @@ function Estate(){
   <br />
 
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-xxl-6">
     <br />
     <br />
     <br />
     <br />
-    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade " data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -24,13 +24,13 @@ function Estate(){
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://media.gettyimages.com/photos/the-town-of-gurgaon-picture-id536063492?k=6&m=536063492&s=612x612&w=0&h=KXy7eHRbwycNsXBR5s4CAGjIKiacmsgz-mMbptQ8-dY=" class="d-block w-100" alt="..." />
+      <img src="https://media.gettyimages.com/photos/the-town-of-gurgaon-picture-id536063492?k=6&m=536063492&s=612x612&w=0&h=KXy7eHRbwycNsXBR5s4CAGjIKiacmsgz-mMbptQ8-dY=" class="d-block w-100 g-carousel" alt="..." />
     </div>
     <div class="carousel-item">
-      <img src="https://media.gettyimages.com/photos/view-of-a-deserted-gurugram-some-of-the-busiest-places-of-cities-now-picture-id1210495452?k=6&m=1210495452&s=612x612&w=0&h=QmG23WmPymQVeVuHVJ92eM6WObEghq_9eCeZZunkTZs=" class="d-block w-100" alt="..." />
+      <img src="https://media.gettyimages.com/photos/view-of-a-deserted-gurugram-some-of-the-busiest-places-of-cities-now-picture-id1210495452?k=6&m=1210495452&s=612x612&w=0&h=QmG23WmPymQVeVuHVJ92eM6WObEghq_9eCeZZunkTZs=" class="d-block w-100 g-carousel" alt="..." />
     </div>
     <div class="carousel-item">
-      <img src="https://media.gettyimages.com/photos/aerial-night-shot-of-buildings-with-homes-and-offices-with-more-in-picture-id1224427501?k=6&m=1224427501&s=612x612&w=0&h=YI9g2ubozUiwB13m_d_0_K0emfys8t9iXQNAQQN36k8=" class="d-block w-100" alt="..." />
+      <img src="https://media.gettyimages.com/photos/aerial-night-shot-of-buildings-with-homes-and-offices-with-more-in-picture-id1224427501?k=6&m=1224427501&s=612x612&w=0&h=YI9g2ubozUiwB13m_d_0_K0emfys8t9iXQNAQQN36k8=" class="d-block w-100 g-carousel" alt="..." />
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -42,9 +42,9 @@ function Estate(){
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
+<br/><br/>
     </div>
-    <div class="col-md-6">
+    <div class="col-xxl-6">
 
         <h1><u><b>Gurgaon Real Estate</b></u></h1>
       <br />

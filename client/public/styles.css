@@ -130,10 +130,10 @@ p.card-text{
 footer {
   text-align: center;
   width: 100%;
-  padding: 20px;
+  padding: 20px 50px;
   margin-top: 20px;
-  height: 3.5rem;
-  background-color: #000000;
+
+  background-color: #FCDEC0;
 background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
 
 
@@ -150,7 +150,7 @@ background-image: url("https://www.transparenttextures.com/patterns/45-degree-fa
 
 
 footer p {
-  color: #ccc;
+  
 }
 
 .skill-row{
@@ -427,4 +427,12 @@ section{
 }
 .layout{
   width: 100%;
+}
+
+.footer-input{
+
+  text-align: left;
+}
+.g-carousel{
+  border-radius: 10px;
 }
