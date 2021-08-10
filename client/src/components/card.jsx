@@ -7,9 +7,10 @@ function Card(props){
  }
 
 
-  return  <div className="col-6 col-md-4 propertyCard" >
+  return  <div className="col-6 col-md-4 propertyCard" data-aos="flip-right" >
   <div className="card" styles="width: 2rem;">
   <img className="card-img-top" src={props.link} alt="Card image cap" />
+  
   <div className="card-body" >
   <a href={'/property/'+props.id} className="propertyLink"> <h5 className="card-title" index={props.id} onClick={onclick}>{props.info}</h5></a>
     <p className="card-text">{props.price}</p>

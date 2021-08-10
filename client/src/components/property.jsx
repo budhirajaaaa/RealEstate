@@ -48,7 +48,7 @@ useEffect(async () => {
     </button>
   </div>
 
-<div className="property-detail">
+<div className="property-detail" data-aos="fade-up">
 <div className="row">
 <div className="col-md-6">
 <h1>Signature Tower</h1>

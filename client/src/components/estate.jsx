@@ -1,14 +1,13 @@
 import React from "react";
 
 function Estate(){
-  return <div class="estateContainer">
+  return <div class="estateContainer" data-aos="fade-up">
   <br />
   <br />
   <br />
   <hr />
   <br />
-  <br />
-  <br />
+
 
   <div class="row">
     <div class="col-xxl-6">

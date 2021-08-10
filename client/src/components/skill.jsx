@@ -1,7 +1,7 @@
 import React from "react";
 
 function Skill(){
-  return <section>
+  return <section data-aos="fade-up">
     <div class="contain">
       <div class="left2"></div>
       <div class="right">

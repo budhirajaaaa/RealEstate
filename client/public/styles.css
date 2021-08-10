@@ -114,7 +114,7 @@ margin: 30px auto;
 
 }
 .card{
-  box-shadow: 0px 0px 2px 2px grey;
+  box-shadow: 0px 0px 4px 4px grey;
 
 }
 .card-title{
@@ -133,12 +133,19 @@ footer {
   padding: 20px 50px;
   margin-top: 20px;
 
-  background-color: #FCDEC0;
-background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
-
+  background-color: black;
+ /* background-image: url("https://www.transparenttextures.com/patterns/polonez-pattern.png"); */
+color: white;
 
 /* padding: 50px 20px 200px 20px; */
 }
+footer h1{
+  font-family: 'Cinzel', serif;
+  font-size: 3.5rem;
+  color: #7D5A50;
+  color: white;
+}
+
 
 .propertyLink{
   text-decoration: none;
@@ -150,7 +157,7 @@ background-image: url("https://www.transparenttextures.com/patterns/45-degree-fa
 
 
 footer p {
-  
+
 }
 
 .skill-row{
@@ -218,11 +225,7 @@ hr:after {
   -o-transform: scaleX(15) scaleY(2) rotate(90deg);
   transform: scaleX(15) scaleY(2) rotate(90deg);
 } */
-.my-image{
-  width: 100px;
-  border-radius: 40px;
 
-}
 .contact{
   text-align: left;
   padding: 0 20px;
@@ -401,7 +404,7 @@ section{
 
 .pimage{
 
-  height: 80vh;
+  height: 35rem;
 
 
 }
@@ -435,4 +438,39 @@ section{
 }
 .g-carousel{
   border-radius: 10px;
+}
+.my-image{
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+
+footer td{
+  padding: 10px;
+}
+footer td p{
+  margin: 0;
+}
+.card-img-top{
+  height: 17rem;
+}
+.company-name{
+  font-family: 'Playfair Display', serif;
+  color: #FCDEC0;
+  padding: 30px 10px;
+}
+.btn{
+  margin: 20px 0;
+}
+
+h2{
+  color: #E6D5B8;
+}
+@media only screen and (max-width: 668px){
+  .pimage{
+
+    height: 27rem;
+
+
+  }
 }
