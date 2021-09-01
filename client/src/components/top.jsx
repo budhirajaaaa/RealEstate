@@ -17,7 +17,7 @@ function Top(){
   </video>
 
   <div className="content">
-  <h1>Company Name<span></span></h1>
+  <h1>Budhiraja Estate<span></span></h1>
     <div className="banner-div">
 
     <select id="list" onChange={typeOfProperty}>

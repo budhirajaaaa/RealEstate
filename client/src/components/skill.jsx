@@ -1,8 +1,8 @@
 import React from "react";
 
 function Skill(){
-  return <section data-aos="fade-up">
-    <div class="contain">
+  return <section >
+    <div class="contain" data-aos="fade-up">
       <div class="left2"></div>
       <div class="right">
         <div class="content">
@@ -13,16 +13,17 @@ function Skill(){
         </div>
       </div>
     </div>
-    <div class="contain">
+    <div class="contain" data-aos="fade-up">
       <div class="left1"></div>
       <div class="right">
-        <div class="content">
+        <div class="content" >
           <h1>Property Consultation</h1>
           <p>We aim to assist buyers, find properties as per their requirements.
 Our property experts provide detailed information from the initial stage of construction, infrastructural developments, price fluctuations, and more for a smart home-buying decision.</p>
           </div>
       </div>
     </div>
+    
   </section>
 }
 

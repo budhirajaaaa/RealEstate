@@ -51,7 +51,7 @@ useEffect(async () => {
 <div className="property-detail" data-aos="fade-up">
 <div className="row">
 <div className="col-md-6">
-<h1>Signature Tower</h1>
+<h1>{(t==1)?pplaces[id].Info:null}</h1>
 <p>Live in a luxurious home, in the lap of nature. Located in the foothills of the Aravallis, enjoy the green acres under a boundless blue sky – far away from the city’s pollution. Here, world class amenities are served to you in a blissfully serene atmosphere. And the premium floors are designed to ensure adequate natural sunlight in each apartment. Here living is a fine art. Where the sky is bluer and the field is greener, bathed in sunshine, surrounded by the scent of wet grass and, the music of birds and buzzing insects. It’s a perfect blend of natural beauty and comfort that you call home.</p>
 </div>
 <div className="col-md-6">

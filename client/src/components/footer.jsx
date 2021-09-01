@@ -7,7 +7,7 @@ function Footer() {
     <h1>“The best investment on Earth is earth.”</h1>
     <div className="row">
 
-    <div className="col-md-6">
+    <div className="col-md-6 left-footer">
       <div className="footer-input">
       <h2>For Any Queries...!</h2>
       <form action="mailto:dakshbudhiraja2@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
@@ -27,7 +27,7 @@ function Footer() {
 
       </div>
 
-      <div className="col-md-6">
+      <div className="col-md-6 right-footer">
 <h1 className="company-name">Budhiraja Estate</h1>
 <table>
 <tr>

@@ -38,6 +38,7 @@ function CardLayout(){
   </div>
   </div>
   <br />
+  <iframe src="https://app.lapentor.com/sphere/untitled-1630489133" frameborder="0" width="100%" height="400px" scrolling="no" allow="vr,gyroscope,accelerometer" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
   <br />
   </div>
 }

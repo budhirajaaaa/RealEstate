@@ -123,6 +123,9 @@ font-family: 'Source Sans Pro', sans-serif;
 .cardContainer{
   padding: 0 10% ;
 }
+.card-body{
+  height: 150px;
+}
 p.card-text{
   margin: 0;
   color: grey;
@@ -144,6 +147,14 @@ footer h1{
   font-size: 3.5rem;
   color: #7D5A50;
   color: white;
+}
+
+.right-footer{
+
+  background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/dark-tire.png");
+color: black;
+border-radius: 20px;
 }
 
 
@@ -317,6 +328,8 @@ section {
   align-items: center;
   justify-content: center;
   padding: 50px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 
 }
 .contain {
