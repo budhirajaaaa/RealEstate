@@ -18,15 +18,6 @@ function Top(){
 
   <div className="content">
   <h1>Budhiraja Estate<span></span></h1>
-    <div className="banner-div">
-
-    <select id="list" onChange={typeOfProperty}>
-               <option value="RENT">RENT</option>
-               <option value="BUY">BUY</option>
-
-           </select>
-
-    </div>
 
 
   </div>
@@ -35,3 +26,12 @@ function Top(){
 }
 
 export default Top;
+// <--   <div className="banner-div">
+//
+// <select id="list" onChange={typeOfProperty}>
+//            <option value="RENT">RENT</option>
+//            <option value="BUY">BUY</option>
+//
+//        </select>
+//
+// </div>-->
